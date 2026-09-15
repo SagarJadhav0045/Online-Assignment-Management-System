@@ -36,6 +36,12 @@ A full-stack web application for managing student assignments, submissions, and 
 - Evaluate Assignments
 - Publish Results
 
+## 📸 Screenshots
+
+### Login Page
+
+![Login Page](screenshots/login.png)
+
 ## 📂 Project Structure
 
 ```text
