@@ -12,9 +12,12 @@ import jakarta.servlet.http.HttpSession;
 
 @RestController
 @CrossOrigin(
-    origins = "http://localhost:5173",
-    allowCredentials = "true"
-)
+	    origins = {
+	        "http://localhost:5173",
+	        "http://localhost:5174"
+	    },
+	    allowCredentials = "true"
+	)
 public class LoginRestController {
 
     private final UserService userService = new UserService();

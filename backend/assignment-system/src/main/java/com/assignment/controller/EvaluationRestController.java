@@ -11,7 +11,10 @@ import com.assignment.service.SubmissionService;
 import jakarta.servlet.http.HttpSession;
 
 @CrossOrigin(
-	    origins = "http://localhost:5173",
+	    origins = {
+	        "http://localhost:5173",
+	        "http://localhost:5174"
+	    },
 	    allowCredentials = "true"
 	)
 @RestController
