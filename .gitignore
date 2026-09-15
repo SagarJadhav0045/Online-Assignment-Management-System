@@ -1,0 +1,25 @@
+# =========================
+# Frontend
+# =========================
+frontend/assignment-frontend/node_modules/
+frontend/assignment-frontend/dist/
+
+# =========================
+# Backend
+# =========================
+backend/assignment-system/target/
+
+# Eclipse
+backend/assignment-system/.settings/
+backend/assignment-system/.classpath
+backend/assignment-system/.project
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
